@@ -1,0 +1,68 @@
+body {
+    font-family: Sarabun, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.NavBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+
+}
+.NavBarContent {
+    width: calc(100% - 40px);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Content {
+    margin-top: 170px;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active {
+    background-color: #2b2b2b;
+    color: white
+}
+li a:hover {
+    background-color: #2b2b2b;
+    color: white;
+}
+.TopReading {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+.BookList {
+    display: flex;
+    gap: 10px;
+}
+.BookList img {
+    margin: 20px;
+    height: 400px;
+    flex-shrink: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+.BookList img:hover {
+    transform: scale(1.05);
+}
