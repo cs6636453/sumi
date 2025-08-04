@@ -20,23 +20,36 @@ nav#main {
 /* nav Category */
 nav#category {
     background-color: white;
-    overflow: hidden;
-    position: fixed;
     width: 100%;
-    padding-left: 10px;
-    margin-left: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    z-index: 1000;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    height: 80px;
+    line-height: 72px;
+}
+
+nav#category::-webkit-scrollbar {
+    display: none;
 }
 
 /* ข้อมูลใน nav เลือกหมวดหมู่ */
 nav#category a {
-    float: left;
-    display: block;
+    display: inline;
     color: gray;
     text-align: center;
-    margin: 0 10px;
-    padding: 14px 16px;
+    margin-left: 10px;
+    padding: 15px 16px 15px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 36px;
+    white-space: nowrap;
 }
 
 /* ตกแต่งลิงค์ข้างใน nav */
@@ -88,7 +101,12 @@ span.size-48 {
 header {
     font-size: 64px;
     text-align: center;
-    padding: 14px 0;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+main.homepage {
+    margin-left: 45px;
 }
 
 /* สำหรับ Desktop */
