@@ -24,9 +24,7 @@ nav#category {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-    padding-top: 15px;
-    padding-bottom: 100px;
-    padding-left: 30px;
+    padding: 15px 30px 100px;
     margin-bottom: 10px;
     box-sizing: border-box;
     z-index: 1000;
@@ -46,6 +44,7 @@ nav#category a {
     color: gray;
     text-align: center;
     margin-left: 10px;
+    margin-right: 10px;
     padding: 15px 16px 15px;
     text-decoration: none;
     font-size: 48px;
@@ -113,7 +112,12 @@ header a {
 main.homepage {
     margin-left: 45px;
     margin-bottom: 250px;
+    margin-right: 45px;
+}
 
+form.search_box {
+    display: inline;
+    height: 70px;
 }
 
 /* สำหรับ Desktop */
