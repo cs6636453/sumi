@@ -20,9 +20,9 @@ nav a {
     display: block;
     color: gray;
     text-align: center;
-    padding: 15px 30px;
+    padding: 20px 24px;
     text-decoration: none;
-    font-size: 48px;
+    font-size: 64px;
 }
 
 /* เปลี่ยนสีเมื่อเอาเมาส์ไปวาง */
@@ -37,6 +37,6 @@ nav a.active {
 
 /* ขนาดปุ่ม nav */
 span.size-48 {
-    font-size: 48px;
+    font-size: 64px;
     font-variation-settings: 'OPSZ' 48;
 }
