@@ -111,6 +111,10 @@ main.homepage {
 
 }
 
+p.temp {
+    font-size: 500px;
+}
+
 /* สำหรับ Desktop */
 @media (min-width: 600px) {
 
