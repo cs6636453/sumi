@@ -109,6 +109,11 @@ header a {
     color: black;
 }
 
+header a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 main.homepage {
     margin-left: 45px;
     margin-bottom: 250px;
