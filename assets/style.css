@@ -20,7 +20,7 @@ nav a {
     display: block;
     color: gray;
     text-align: center;
-    padding: 20px 24px;
+    padding: 20px 80px;
     text-decoration: none;
     font-size: 64px;
     transform: scale(1.5);
@@ -41,4 +41,9 @@ nav a.active {
 span.size-48 {
     font-size: 64px;
     font-variation-settings: 'OPSZ' 48;
+}
+
+/* สำหรับ Desktop */
+@media (min-width: 600px) {
+
 }
