@@ -1,0 +1,42 @@
+/* ภาพรวม */
+body {
+    font-family: Sarabun, serif;
+}
+
+/* วาง nav ไว้ข้างล่างสุดแล้วทำให้อยู่กับที่ */
+nav {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ตกแต่งลิงค์ข้างใน nav */
+nav a {
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* เปลี่ยนสีเมื่อเอาเมาส์ไปวาง */
+nav a:hover {
+    color: black;
+}
+
+/* เพิ่มสีเข้าไปในลิงค์ปัจจุบัน */
+nav a.active {
+    color: black;
+}
+
+/* ขนาดปุ่ม nav */
+span.size-40 {
+    font-size: 40px;
+    font-variation-settings: 'OPSZ' 40;
+}
