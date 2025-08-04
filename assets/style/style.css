@@ -1,0 +1,97 @@
+/* ภาพรวม */
+body {
+    font-family: "Kanit", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* วาง nav ไว้ข้างล่างสุดแล้วทำให้อยู่กับที่ */
+nav#main {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 -20px 50px rgba(0, 0, 0, 0.1);
+}
+
+/* nav Category */
+nav#category {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+/* ข้อมูลใน nav เลือกหมวดหมู่ */
+nav#category a {
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    margin: 0 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* ตกแต่งลิงค์ข้างใน nav */
+nav#main a {
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 20px 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    transform-origin: center;
+}
+
+/* เปลี่ยนสีเมื่อเอาเมาส์ไปวาง */
+nav#main a:hover {
+    color: black;
+}
+
+/* เพิ่มสีเข้าไปในลิงค์ปัจจุบัน */
+nav#main a.active {
+    color: black;
+}
+
+/* เปลี่ยนสีเมื่อเอาเมาส์ไปวาง */
+nav#category a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+/* เพิ่มสีเข้าไปในลิงค์ปัจจุบัน */
+nav#category a.active {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+/* ขนาดปุ่ม nav */
+span.size-48 {
+    transform: scale(1.4);
+    font-size: 64px;
+    font-variation-settings: 'OPSZ' 48;
+}
+
+/* หัว SUMI */
+header {
+    font-size: 64px;
+    text-align: center;
+    padding: 14px 0;
+}
+
+/* สำหรับ Desktop */
+@media (min-width: 600px) {
+
+}
