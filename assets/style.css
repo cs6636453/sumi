@@ -36,7 +36,7 @@ nav a.active {
 }
 
 /* ขนาดปุ่ม nav */
-span.size-40 {
-    font-size: 40px;
-    font-variation-settings: 'OPSZ' 40;
+span.size-48 {
+    font-size: 48px;
+    font-variation-settings: 'OPSZ' 48;
 }
