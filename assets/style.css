@@ -23,6 +23,8 @@ nav a {
     padding: 20px 24px;
     text-decoration: none;
     font-size: 64px;
+    transform: scale(1.5);
+    transform-origin: center;
 }
 
 /* เปลี่ยนสีเมื่อเอาเมาส์ไปวาง */
