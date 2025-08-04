@@ -115,7 +115,7 @@ main.homepage {
     margin-right: 45px;
 }
 
-form.search_box {
+input.search_box {
     display: inline;
     height: 70px;
 }
