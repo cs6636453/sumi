@@ -25,17 +25,36 @@
 
     <!-- แถบเลือกประเภทหนังสือ -->
     <nav id="category">
-        <a href="#" class="active">โรแมนซ์</a>
-        <a href="#">โรแมนซ์แฟนตาซี</a>
-        <a href="#">แฟนตาซี</a>
-        <a href="#">LGBTQ+</a>
-        <a href="#">ดราม่า</a>
-        <a href="#">แอกชั่น</a>
+        <a href="?category=romance" class="active">โรแมนซ์</a>
+        <a href="?category=romance_fantasy">โรแมนซ์แฟนตาซี</a>
+        <a href="?category=fantasy">แฟนตาซี</a>
+        <a href="?category=lgbtq">LGBTQ+</a>
+        <a href="?category=drama">ดราม่า</a>
+        <a href="?category=action">แอกชั่น</a>
     </nav>
     <main class="homepage">
         <!-- Dev smth here -->
 
     </main>
+
+    <script>
+        // Get the current URL query string
+        const params = new URLSearchParams(window.location.search);
+        const currentCategory = params.get('category') || 'romance'; // default to 'romance'
+
+        // Get all nav links inside #category
+        const links = document.querySelectorAll('#category a');
+
+        links.forEach(link => {
+            const url = new URL(link.href);
+            const linkCategory = url.searchParams.get('category');
+            if (linkCategory === currentCategory) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    </script>
 
 </body>
 </html>
