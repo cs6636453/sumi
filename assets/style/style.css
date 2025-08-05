@@ -120,9 +120,29 @@ main.homepage {
     margin-right: 45px;
 }
 
+main.webtoon_reader {
+    margin-left: 0;
+    margin-bottom: 250px;
+    margin-right: 0;
+}
+
 input.search_box {
     display: inline;
     height: 70px;
+}
+
+article.webtoon_reader {
+    margin: 0;
+    padding: 0;
+}
+
+article.webtoon_reader > img {
+    width: 100%;
+}
+
+nav.webtoon_controller {
+    display: flex;
+    justify-content: left;
 }
 
 /* สำหรับ Desktop */
