@@ -131,11 +131,9 @@ input.search_box {
     height: 70px;
 }
 
-/* Base styles: mobile (default) */
 article.webtoon_reader {
     margin: 0;
     padding: 0;
-    display: flex;
 }
 
 article.webtoon_reader > img {
@@ -147,20 +145,7 @@ nav.webtoon_controller {
     justify-content: left;
 }
 
-/* Hide unsupported message on mobile by default */
-article.unsupported_device {
-    display: none;
-}
-
-/* Desktop and tablet (min-width: 600px) */
+/* สำหรับ Desktop */
 @media (min-width: 600px) {
-    article.webtoon_reader {
-        display: none;
-    }
 
-    article.unsupported_device {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
 }
