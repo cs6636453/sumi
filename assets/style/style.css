@@ -145,6 +145,11 @@ nav.webtoon_controller {
     justify-content: left;
 }
 
+nav.webtoon_controller > a {
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
 /* สำหรับ Desktop */
 @media (min-width: 600px) {
 
